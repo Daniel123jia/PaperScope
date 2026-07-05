@@ -74,6 +74,14 @@ Mac 软件包使用免费的 ad-hoc 签名，没有使用付费 Apple Developer 
 - 每个 Release 都提供 SHA-256 校验文件，可用于检查下载文件是否完整。
 - 软件显示的论文信息、PDF 和引用文献覆盖范围取决于对应公开学术数据源。
 
+## 交流与反馈
+
+欢迎扫码添加微信，一起交流论文检索、科研工具使用、功能建议与问题反馈。添加好友时可以备注 `PaperScope`，方便确认来意。
+
+<p align="center">
+  <img src="assets/wechat-contact.jpg" alt="PaperScope 微信交流二维码" width="360">
+</p>
+
 ## 下载入口
 
 全部版本请前往 [GitHub Releases](https://github.com/Daniel123jia/PaperScope/releases)。
