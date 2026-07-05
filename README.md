@@ -39,28 +39,30 @@
 
 ## 功能截图
 
+下面几张图展示的是 PaperScope 的核心筛选能力。用户可以先输入研究主题，再按关键词逻辑、学校机构、期刊会议、作者等维度逐步缩小结果范围。
+
 <table>
   <tr>
     <td width="50%" valign="top">
       <strong>关键词布尔检索</strong><br>
-      <sub>组合关键词、精确短语、排除词和仅题名检索。</sub><br><br>
+      <sub>支持关键词、精确短语、排除词和仅题名检索；可以切换 AND / OR，并用括号分组构造更精确的检索式。适合从大量结果中排除无关方向，例如排除医学、自动驾驶等不相关场景。</sub><br><br>
       <img src="assets/paperscope-keywords.png" alt="PaperScope 关键词筛选" width="100%">
     </td>
     <td width="50%" valign="top">
       <strong>学校 / 机构筛选</strong><br>
-      <sub>按学校、科研机构和常见别名快速收窄结果。</sub><br><br>
+      <sub>可通过学校、科研院所、英文名、缩写和常见别名进行筛选。适合查看某所高校、实验室或研究机构在指定主题下的论文产出。</sub><br><br>
       <img src="assets/paperscope-school.png" alt="PaperScope 学校筛选" width="100%">
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <strong>期刊 / 会议筛选</strong><br>
-      <sub>结合中科院分区、CCF 分类、学科与刊名筛选高价值来源。</sub><br><br>
+      <sub>融入多个领域的期刊与会议信息，支持中科院分区、CCF 分类、学科收窄、刊名过滤和会议 / 期刊切换。适合快速定位高价值来源与目标投稿方向。</sub><br><br>
       <img src="assets/paperscope-venues.png" alt="PaperScope 期刊会议筛选" width="100%">
     </td>
     <td width="50%" valign="top">
       <strong>作者与推荐学者库</strong><br>
-      <sub>按作者检索，并快速查看推荐学者集合。</sub><br><br>
+      <sub>支持按作者姓名筛选，并提供推荐学者库。适合追踪目标导师、领域代表学者、合作团队或某个研究社区的最新成果。</sub><br><br>
       <img src="assets/paperscope-authors.png" alt="PaperScope 作者筛选" width="100%">
     </td>
   </tr>
