@@ -19,18 +19,19 @@ This repository only provides compiled Windows and macOS packages. **Source code
 
 ## Download
 
-Recommended version: [PaperScope v1.4](https://github.com/Daniel123jia/PaperScope/releases/tag/v1.4).
+Recommended version: [PaperScope v1.5](https://github.com/Daniel123jia/PaperScope/releases/tag/v1.5).
 
 All versions are available on [GitHub Releases](https://github.com/Daniel123jia/PaperScope/releases).
 
 | Version | Trial | Windows | Intel Mac | Apple Silicon Mac | Highlights |
 | --- | ---: | :---: | :---: | :---: | --- |
+| [v1.5](https://github.com/Daniel123jia/PaperScope/releases/tag/v1.5) | 10 days | Yes | Yes | Yes | Redesigned result page, paper-analysis templates, AI title-copy workflow, and search stability improvements |
 | [v1.4](https://github.com/Daniel123jia/PaperScope/releases/tag/v1.4) | 7 days | Yes | Yes | Yes | Citing-paper workflow, CAS partition filtering, CCF and English UI improvements |
 | [v1.3](https://github.com/Daniel123jia/PaperScope/releases/tag/v1.3) | 20 days | Yes | Yes | Yes | Chinese / English UI, multi-source search orchestration, multiple interface backgrounds |
 | [v1.2](https://github.com/Daniel123jia/PaperScope/releases/tag/v1.2) | 7 days | Yes | Yes | Yes | First release with Windows, Intel Mac, and Apple Silicon Mac packages |
 | [v1.1](https://github.com/Daniel123jia/PaperScope/releases/tag/v1.1) | 7 days | Yes | No | No | Windows EXE and portable ZIP |
 
-Different versions may provide 7-day or 20-day trials because PaperScope is updated regularly with new features. Each version keeps the trial duration configured at the time of its release.
+Different versions may provide 7-day, 10-day, or 20-day trials because PaperScope is updated regularly with new features. Each version keeps the trial duration configured at the time of its release.
 
 ## Highlights
 
@@ -40,6 +41,7 @@ Different versions may provide 7-day or 20-day trials because PaperScope is upda
 - **Partition-aware result browsing**: quickly prioritize papers by partition, source, open-access status, and PDF availability.
 - **Copy titles for AI analysis**: copy paper titles and paste them into ChatGPT, Claude, or other LLMs with your own analysis prompt template.
 - **Copy citing-paper titles for AI analysis**: open the citing-paper workflow, copy titles of follow-up works, and ask an LLM to summarize research trends, improvements, and possible gaps.
+- **v1.5 result-page and template upgrades**: clearer result layout, simple / detailed paper-analysis prompt templates, better repeated-search caching, and clearer citation-count handling.
 
 ## Example Workflow
 
