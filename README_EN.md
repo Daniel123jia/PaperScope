@@ -45,10 +45,10 @@ Different versions may provide 7-day, 10-day, or 20-day trials because PaperScop
 
 ## Example Workflow
 
-Example: search for `object detection`, set the year to `2026`, keep journal / conference filters at default, and review results grouped with partition and source information.
+Example: search for `few-shot`, set the year to `2026`, and choose `IEEE Transactions on Pattern Analysis and Machine Intelligence` as the journal. PaperScope aggregates public academic data sources and presents results with partition, source, open-access, and PDF-availability information. In this example, search time dropped from about `24 seconds` to `8.32 seconds`.
 
 <p align="center">
-  <img src="assets/paperscope-ai-workflow.png" alt="PaperScope object detection results and AI analysis workflow" width="100%">
+  <img src="assets/paperscope-ai-workflow.png" alt="PaperScope few-shot results and AI analysis workflow" width="100%">
 </p>
 
 1. Filter papers by year, source, partition, open-access status, and PDF availability.

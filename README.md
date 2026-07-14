@@ -51,10 +51,10 @@
 
 ## 典型流程：检索后交给 AI 快速解析
 
-下面是一个示例：关键词输入 `object detection`，年份选择 `2026`，期刊 / 会议保持默认。PaperScope 会聚合公开学术数据源，并把检索出来的论文按分区、来源、开放获取状态和 PDF 可用性展示出来。
+下面是一个示例：关键词输入 `few-shot`，年份选择 `2026`，期刊选择 `IEEE Transactions on Pattern Analysis and Machine Intelligence`。PaperScope 会聚合公开学术数据源，并把检索出来的论文按分区、来源、开放获取状态和 PDF 可用性展示出来。示例中检索用时从约 `24 秒` 降到 `8.32 秒`。
 
 <p align="center">
-  <img src="assets/paperscope-ai-workflow.png" alt="PaperScope object detection 检索结果与 AI 解析工作流" width="100%">
+  <img src="assets/paperscope-ai-workflow.png" alt="PaperScope few-shot 检索结果与 AI 解析工作流" width="100%">
 </p>
 
 这个流程的价值在于：
