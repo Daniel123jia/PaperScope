@@ -19,12 +19,13 @@
 
 ## 快速下载
 
-建议下载最新版本：[PaperScope v1.5](https://github.com/Daniel123jia/PaperScope/releases/tag/v1.5)。
+建议下载最新版本：[PaperScope v1.6](https://github.com/Daniel123jia/PaperScope/releases/tag/v1.6)。
 
 全部版本请前往：[GitHub Releases](https://github.com/Daniel123jia/PaperScope/releases)。
 
 | 版本 | 首次启动试用期 | Windows | Intel Mac | Apple 芯片 Mac | 主要更新 |
 | --- | ---: | :---: | :---: | :---: | --- |
+| [v1.6](https://github.com/Daniel123jia/PaperScope/releases/tag/v1.6) | 10 天 | 支持 | 支持 | 支持 | 增强期刊 / 会议筛选；新增官方会议论文集补充检索；优化多源检索稳定性 |
 | [v1.5](https://github.com/Daniel123jia/PaperScope/releases/tag/v1.5) | 10 天 | 支持 | 支持 | 支持 | 结果页重做；新增论文解析模板；优化“复制题目到 AI 解析”和检索稳定性 |
 | [v1.4](https://github.com/Daniel123jia/PaperScope/releases/tag/v1.4) | 7 天 | 支持 | 支持 | 支持 | 新增“引用本文”；新增计算机领域中科院分区筛选；优化 CCF 分类和英文界面 |
 | [v1.3](https://github.com/Daniel123jia/PaperScope/releases/tag/v1.3) | 20 天 | 支持 | 支持 | 支持 | 新增中英文界面、多数据源检索编排、多种界面背景 |
@@ -46,6 +47,7 @@
 - **作者与学者库**：支持作者筛选，并内置推荐学者库，方便追踪目标导师、合作团队和领域代表学者。
 - **复制题目进行 AI 解析**：一键复制论文题目，配合自定义解析模板，粘贴到 ChatGPT、Claude 等大模型中快速了解论文背景、方法、贡献和适合精读的价值。
 - **复制引文进行 AI 解析**：v1.4 支持“引用本文”，可以点开引文并复制后续引用论文题目，用大模型快速梳理后续研究脉络、改进方向和潜在创新点。
+- **v1.6 官方会议与筛选增强**：完善期刊 / 会议筛选面板，新增 AAAI OJS、NeurIPS Proceedings 以及 ACL、EMNLP、ICML、COLT、IJCAI 等官方会议论文集补充检索，并改进多源去重、统计和超时降级。
 - **v1.5 结果页与模板增强**：结果页布局更清晰，新增论文解析简洁版 / 完善版模板，并优化重复检索时的数据源缓存与引用数显示。
 - **开箱即用**：下载软件包即可运行，不需要用户额外安装 Python、Node.js 或开发环境。
 
@@ -98,6 +100,7 @@
 
 **Windows 用户**建议下载对应版本的便携版 ZIP，例如：
 
+- [`ScholarHub_Portable_v1.6.zip`](https://github.com/Daniel123jia/PaperScope/releases/download/v1.6/ScholarHub_Portable_v1.6.zip)
 - [`ScholarHub_Portable_v1.5.zip`](https://github.com/Daniel123jia/PaperScope/releases/download/v1.5/ScholarHub_Portable_v1.5.zip)
 - [`ScholarHub_Portable_v1.4.zip`](https://github.com/Daniel123jia/PaperScope/releases/download/v1.4/ScholarHub_Portable_v1.4.zip)
 - [`ScholarHub_Portable_v1.3.zip`](https://github.com/Daniel123jia/PaperScope/releases/download/v1.3/ScholarHub_Portable_v1.3.zip)

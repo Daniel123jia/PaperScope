@@ -19,12 +19,13 @@ This repository only provides compiled Windows and macOS packages. **Source code
 
 ## Download
 
-Recommended version: [PaperScope v1.5](https://github.com/Daniel123jia/PaperScope/releases/tag/v1.5).
+Recommended version: [PaperScope v1.6](https://github.com/Daniel123jia/PaperScope/releases/tag/v1.6).
 
 All versions are available on [GitHub Releases](https://github.com/Daniel123jia/PaperScope/releases).
 
 | Version | Trial | Windows | Intel Mac | Apple Silicon Mac | Highlights |
 | --- | ---: | :---: | :---: | :---: | --- |
+| [v1.6](https://github.com/Daniel123jia/PaperScope/releases/tag/v1.6) | 10 days | Yes | Yes | Yes | Improved journal / conference filtering, added official proceedings sources, and strengthened multi-source search stability |
 | [v1.5](https://github.com/Daniel123jia/PaperScope/releases/tag/v1.5) | 10 days | Yes | Yes | Yes | Redesigned result page, paper-analysis templates, AI title-copy workflow, and search stability improvements |
 | [v1.4](https://github.com/Daniel123jia/PaperScope/releases/tag/v1.4) | 7 days | Yes | Yes | Yes | Citing-paper workflow, CAS partition filtering, CCF and English UI improvements |
 | [v1.3](https://github.com/Daniel123jia/PaperScope/releases/tag/v1.3) | 20 days | Yes | Yes | Yes | Chinese / English UI, multi-source search orchestration, multiple interface backgrounds |
@@ -41,6 +42,7 @@ Different versions may provide 7-day, 10-day, or 20-day trials because PaperScop
 - **Partition-aware result browsing**: quickly prioritize papers by partition, source, open-access status, and PDF availability.
 - **Copy titles for AI analysis**: copy paper titles and paste them into ChatGPT, Claude, or other LLMs with your own analysis prompt template.
 - **Copy citing-paper titles for AI analysis**: open the citing-paper workflow, copy titles of follow-up works, and ask an LLM to summarize research trends, improvements, and possible gaps.
+- **v1.6 official proceedings and filtering upgrades**: improved the journal / conference filtering panel, added supplementary official proceedings search for AAAI OJS, NeurIPS Proceedings, ACL, EMNLP, ICML, COLT, IJCAI, and improved multi-source deduplication, statistics, and timeout fallback.
 - **v1.5 result-page and template upgrades**: clearer result layout, simple / detailed paper-analysis prompt templates, better repeated-search caching, and clearer citation-count handling.
 
 ## Example Workflow
