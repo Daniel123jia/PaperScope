@@ -19,12 +19,13 @@
 
 ## 快速下载
 
-建议下载最新版本：[PaperScope v1.6](https://github.com/Daniel123jia/PaperScope/releases/tag/v1.6)。
+建议下载最新版本：[PaperScope v1.7](https://github.com/Daniel123jia/PaperScope/releases/tag/v1.7)。
 
 全部版本请前往：[GitHub Releases](https://github.com/Daniel123jia/PaperScope/releases)。
 
 | 版本 | 首次启动试用期 | Windows | Intel Mac | Apple 芯片 Mac | 主要更新 |
 | --- | ---: | :---: | :---: | :---: | --- |
+| [v1.7](https://github.com/Daniel123jia/PaperScope/releases/tag/v1.7) | 10 天 | 支持 | 支持 | 支持 | 新增普通 / 深度检索、覆盖报告、可取消深度检索、论文邮件发送和手动订阅；优化数据源路由、去重与 PDF 下载安全 |
 | [v1.6](https://github.com/Daniel123jia/PaperScope/releases/tag/v1.6) | 10 天 | 支持 | 支持 | 支持 | 增强期刊 / 会议筛选；新增官方会议论文集补充检索；优化多源检索稳定性 |
 | [v1.5](https://github.com/Daniel123jia/PaperScope/releases/tag/v1.5) | 10 天 | 支持 | 支持 | 支持 | 结果页重做；新增论文解析模板；优化“复制题目到 AI 解析”和检索稳定性 |
 | [v1.4](https://github.com/Daniel123jia/PaperScope/releases/tag/v1.4) | 7 天 | 支持 | 支持 | 支持 | 新增“引用本文”；新增计算机领域中科院分区筛选；优化 CCF 分类和英文界面 |
@@ -38,6 +39,15 @@
 
 不同版本会看到 7 天、10 天或 20 天试用期，这是因为 PaperScope 会定期更新新功能，并按当次版本开放对应的体验时间。每个版本都保留发布时的试用设置，方便用户在新版本中体验新增能力。
 
+## v1.7 更新内容
+
+- **普通检索 / 深度检索分开**：普通检索更适合快速查找，深度检索适合需要更完整覆盖时使用；深度检索支持进度提示、覆盖报告和手动取消。
+- **数据源路由与去重优化**：根据检索主题和期刊 / 会议选择更合适的数据源，减少不必要的超时；DOI、arXiv、PMID、PMCID 等稳定标识的去重更严格。
+- **论文邮件发送**：可配置 SMTP 邮箱，把单篇论文结果通过邮件发送给自己或指定收件人，方便跨设备整理。
+- **手动论文订阅**：可保存当前检索条件为订阅，设置时间范围、发送频率和最多推送数量，用于追踪新增论文。
+- **PDF 下载安全增强**：加强 PDF 链接校验，限制异常跳转和内网地址，降低下载公开 PDF 时的风险。
+- **AI 服务设置增强**：新增常见 AI 服务商配置入口，便于后续把“复制题目到 AI 解析”“复制引文到 AI 解析”等流程做得更顺手。
+
 ## 功能亮点
 
 - **多条件组合检索**：支持关键词、精确短语、排除词、仅题名检索，并可切换 AND / OR 与括号分组。
@@ -47,6 +57,7 @@
 - **作者与学者库**：支持作者筛选，并内置推荐学者库，方便追踪目标导师、合作团队和领域代表学者。
 - **复制题目进行 AI 解析**：一键复制论文题目，配合自定义解析模板，粘贴到 ChatGPT、Claude 等大模型中快速了解论文背景、方法、贡献和适合精读的价值。
 - **复制引文进行 AI 解析**：v1.4 支持“引用本文”，可以点开引文并复制后续引用论文题目，用大模型快速梳理后续研究脉络、改进方向和潜在创新点。
+- **v1.7 检索与订阅工作流增强**：普通 / 深度检索分流，新增覆盖报告、论文邮件发送、手动订阅和 PDF 下载安全校验，更适合持续追踪某个研究方向。
 - **v1.6 官方会议与筛选增强**：完善期刊 / 会议筛选面板，新增 AAAI OJS、NeurIPS Proceedings 以及 ACL、EMNLP、ICML、COLT、IJCAI 等官方会议论文集补充检索，并改进多源去重、统计和超时降级。
 - **v1.5 结果页与模板增强**：结果页布局更清晰，新增论文解析简洁版 / 完善版模板，并优化重复检索时的数据源缓存与引用数显示。
 - **开箱即用**：下载软件包即可运行，不需要用户额外安装 Python、Node.js 或开发环境。
@@ -100,6 +111,7 @@
 
 **Windows 用户**建议下载对应版本的便携版 ZIP，例如：
 
+- [`ScholarHub_Portable_v1.7.zip`](https://github.com/Daniel123jia/PaperScope/releases/download/v1.7/ScholarHub_Portable_v1.7.zip)
 - [`ScholarHub_Portable_v1.6.zip`](https://github.com/Daniel123jia/PaperScope/releases/download/v1.6/ScholarHub_Portable_v1.6.zip)
 - [`ScholarHub_Portable_v1.5.zip`](https://github.com/Daniel123jia/PaperScope/releases/download/v1.5/ScholarHub_Portable_v1.5.zip)
 - [`ScholarHub_Portable_v1.4.zip`](https://github.com/Daniel123jia/PaperScope/releases/download/v1.4/ScholarHub_Portable_v1.4.zip)
