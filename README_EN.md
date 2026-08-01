@@ -25,7 +25,7 @@ All versions are available on [GitHub Releases](https://github.com/Daniel123jia/
 
 | Version | Trial | Windows | Intel Mac | Apple Silicon Mac | Highlights |
 | --- | ---: | :---: | :---: | :---: | --- |
-| [v1.7](https://github.com/Daniel123jia/PaperScope/releases/tag/v1.7) | 10 days | Yes | Yes | Yes | Added ordinary / deep search, coverage reports, cancellable deep search, paper email delivery, manual subscriptions, safer PDF downloading, and stronger source routing / deduplication |
+| [v1.7](https://github.com/Daniel123jia/PaperScope/releases/tag/v1.7) | 10 days | Yes | Yes | Yes | Added ordinary / deep search, title direction categories, smart journal finder, classified citing-paper analysis, paper email delivery, manual subscriptions, safer PDF downloading, and stronger source routing / deduplication |
 | [v1.6](https://github.com/Daniel123jia/PaperScope/releases/tag/v1.6) | 10 days | Yes | Yes | Yes | Improved journal / conference filtering, added official proceedings sources, and strengthened multi-source search stability |
 | [v1.5](https://github.com/Daniel123jia/PaperScope/releases/tag/v1.5) | 10 days | Yes | Yes | Yes | Redesigned result page, paper-analysis templates, AI title-copy workflow, and search stability improvements |
 | [v1.4](https://github.com/Daniel123jia/PaperScope/releases/tag/v1.4) | 7 days | Yes | Yes | Yes | Citing-paper workflow, CAS partition filtering, CCF and English UI improvements |
@@ -38,6 +38,9 @@ Different versions may provide 7-day, 10-day, or 20-day trials because PaperScop
 ## What's New in v1.7
 
 - **Ordinary and deep search modes**: ordinary search stays fast for daily use, while deep search provides broader coverage with progress, coverage reports, and cancellation.
+- **Title direction categories**: search results are grouped by research directions inferred from titles; the sidebar can filter by direction, and paper cards show direction tags.
+- **Smart journal finder**: generates candidate journals from the current result set and analysis range, using partitions, impact factors, hit distribution, and local venue matching.
+- **Classified citing-paper analysis**: the citing-paper view can organize follow-up works by title direction, source, and citation information, making it easier to understand later method improvements, application extensions, and related-topic expansion.
 - **Better source routing and deduplication**: PaperScope chooses more relevant providers based on the topic and selected venues, and deduplicates more strictly by DOI, arXiv ID, PMID, PMCID, and other stable identifiers.
 - **Paper email delivery**: configure SMTP and send selected paper results to yourself or another recipient.
 - **Manual paper subscriptions**: save current search conditions, set a time range, delivery frequency, and maximum number of papers, then track new papers over time.
@@ -50,8 +53,10 @@ Different versions may provide 7-day, 10-day, or 20-day trials because PaperScop
 - **School and institution filtering**: filter by Chinese names, English names, abbreviations, and common aliases.
 - **Journal and conference filtering**: CAS partitions, CCF categories, disciplines, venue names, and journal / conference switching.
 - **Partition-aware result browsing**: quickly prioritize papers by partition, source, open-access status, and PDF availability.
+- **Title direction categories**: infer research directions from paper titles and filter the current result set by direction.
+- **Smart journal finder**: generate candidate journal lists from the current search results for submission planning and source prioritization.
 - **Copy titles for AI analysis**: copy paper titles and paste them into ChatGPT, Claude, or other LLMs with your own analysis prompt template.
-- **Copy citing-paper titles for AI analysis**: open the citing-paper workflow, copy titles of follow-up works, and ask an LLM to summarize research trends, improvements, and possible gaps.
+- **Classified citing-paper analysis and AI workflow**: open the citing-paper workflow, organize follow-up works by direction/source/citation signals, copy titles, and ask an LLM to summarize research trends, improvements, and possible gaps.
 - **v1.7 search and subscription workflow**: ordinary / deep search modes, coverage reports, paper email delivery, manual subscriptions, and safer PDF downloading for long-term research tracking.
 - **v1.6 official proceedings and filtering upgrades**: improved the journal / conference filtering panel, added supplementary official proceedings search for AAAI OJS, NeurIPS Proceedings, ACL, EMNLP, ICML, COLT, IJCAI, and improved multi-source deduplication, statistics, and timeout fallback.
 - **v1.5 result-page and template upgrades**: clearer result layout, simple / detailed paper-analysis prompt templates, better repeated-search caching, and clearer citation-count handling.
