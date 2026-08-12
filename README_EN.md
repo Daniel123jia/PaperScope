@@ -19,12 +19,13 @@ This repository only provides compiled Windows and macOS packages. **Source code
 
 ## Download
 
-Recommended version: [PaperScope v1.7](https://github.com/Daniel123jia/PaperScope/releases/tag/v1.7).
+Recommended version: [PaperScope v1.8](https://github.com/Daniel123jia/PaperScope/releases/tag/v1.8).
 
 All versions are available on [GitHub Releases](https://github.com/Daniel123jia/PaperScope/releases).
 
 | Version | Trial | Windows | Intel Mac | Apple Silicon Mac | Highlights |
 | --- | ---: | :---: | :---: | :---: | --- |
+| [v1.8](https://github.com/Daniel123jia/PaperScope/releases/tag/v1.8) | 10 days | Yes | Yes | Yes | Added AI Paper Radar, top venue archives, research topic maps, citation-context analysis, more themes, default deep search, and an improved smart journal shortcut |
 | [v1.7](https://github.com/Daniel123jia/PaperScope/releases/tag/v1.7) | 10 days | Yes | Yes | Yes | Added ordinary / deep search, title direction categories, smart journal finder, classified citing-paper analysis, paper email delivery, manual subscriptions, safer PDF downloading, and stronger source routing / deduplication |
 | [v1.6](https://github.com/Daniel123jia/PaperScope/releases/tag/v1.6) | 10 days | Yes | Yes | Yes | Improved journal / conference filtering, added official proceedings sources, and strengthened multi-source search stability |
 | [v1.5](https://github.com/Daniel123jia/PaperScope/releases/tag/v1.5) | 10 days | Yes | Yes | Yes | Redesigned result page, paper-analysis templates, AI title-copy workflow, and search stability improvements |
@@ -34,6 +35,18 @@ All versions are available on [GitHub Releases](https://github.com/Daniel123jia/
 | [v1.1](https://github.com/Daniel123jia/PaperScope/releases/tag/v1.1) | 7 days | Yes | No | No | Windows EXE and portable ZIP |
 
 Different versions may provide 7-day, 10-day, or 20-day trials because PaperScope is updated regularly with new features. Each version keeps the trial duration configured at the time of its release.
+
+## What's New in v1.8
+
+- **AI Paper Radar**: a dedicated entry for focused tracking across AI topics, keywords, authors, years, open-access status, PDF availability, and top venues.
+- **Top venue archive library**: browse archived papers from CVPR, ICCV, ECCV, NeurIPS, ICML, ICLR, ACL, AAAI, IJCAI, TPAMI, IJCV, TGRS, TMI, Nature / Science venues, and more.
+- **Research topic maps**: organize papers by task, modality, learning paradigm, method family, and application area to understand representative works and trends.
+- **High-value paper signals**: archive views can show best-paper, best-student-paper, oral-presentation, and similar labels when available.
+- **Citation-context analysis**: the citing-paper workflow can separate highly related works, method improvements, surveys, and low-relevance follow-ups, making AI-assisted citation review easier.
+- **Smart journal shortcut**: the main search panel can jump from current results into journal recommendations faster.
+- **Default deep search**: the main search flow now prefers deeper retrieval and automatically applies a recent 10-year scope when no explicit year is selected.
+- **Interface improvements**: the top navigation now highlights AI Paper Radar, paper subscriptions, and paper access; new themes include scholar blue, paper, ocean, midnight, and AI purple.
+- **Release packaging**: v1.8 provides Windows, Intel Mac, and Apple Silicon Mac packages with a 10-day trial.
 
 ## What's New in v1.7
 
@@ -57,6 +70,7 @@ Different versions may provide 7-day, 10-day, or 20-day trials because PaperScop
 - **Smart journal finder**: generate candidate journal lists from the current search results for submission planning and source prioritization.
 - **Copy titles for AI analysis**: copy paper titles and paste them into ChatGPT, Claude, or other LLMs with your own analysis prompt template.
 - **Classified citing-paper analysis and AI workflow**: open the citing-paper workflow, organize follow-up works by direction/source/citation signals, copy titles, and ask an LLM to summarize research trends, improvements, and possible gaps.
+- **v1.8 AI Paper Radar and archives**: track top AI venues, browse venue archives, inspect research topic maps, use high-value paper labels, and analyze citation context.
 - **v1.7 search and subscription workflow**: ordinary / deep search modes, coverage reports, paper email delivery, manual subscriptions, and safer PDF downloading for long-term research tracking.
 - **v1.6 official proceedings and filtering upgrades**: improved the journal / conference filtering panel, added supplementary official proceedings search for AAAI OJS, NeurIPS Proceedings, ACL, EMNLP, ICML, COLT, IJCAI, and improved multi-source deduplication, statistics, and timeout fallback.
 - **v1.5 result-page and template upgrades**: clearer result layout, simple / detailed paper-analysis prompt templates, better repeated-search caching, and clearer citation-count handling.
